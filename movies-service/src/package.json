@@ -1,0 +1,24 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "Movies Service",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "node index.test | tap-spec"
+  },
+  "author": "Silas Silva <silas.ti2010@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv-safe": "^6.1.0",
+    "express": "^4.17.1",
+    "helmet": "^3.20.0",
+    "mongodb": "^3.3.0-beta2",
+    "morgan": "^1.9.1",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.11.0"
+  },
+  "devDependencies": {
+    "supertest": "^4.0.2"
+  }
+}
